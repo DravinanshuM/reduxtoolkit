@@ -1,0 +1,52 @@
+.productWrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .productWrapper > div {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px;
+    padding: 16px;
+    width: 250px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .productWrapper > div:hover {
+    transform: translateY(-5px);
+  }
+  
+  .productWrapper img {
+    width: 50%;
+    height: 40%;
+    border-radius: 8px;
+  }
+  
+  .productWrapper h4 {
+    margin-top: 12px;
+    font-size: 1.2em;
+  }
+  
+  .productWrapper h5 {
+    margin-top: 8px;
+    color: #007bff; /* or any other color you prefer for the price */
+  }
+  
+  .productWrapper button {
+    margin-top: 12px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745; /* or any other color you prefer for the button */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .productWrapper button:hover {
+    background-color: #218838; /* or a slightly darker shade for hover effect */
+  }
+  
